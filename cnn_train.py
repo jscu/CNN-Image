@@ -75,7 +75,7 @@ if __name__ == "__main__":
 	training_labels = getText(training_label_path)
 
 
-	classifier = buildCNN(training_data, training_labels, layers, iteration = 100, batch_norm = True, drop_out = True, drop_out_rate = 0.2,
+	classifier = buildCNN(training_data, training_labels, layers, iteration = 10000, batch_norm = True, drop_out = True, drop_out_rate = 0.2,
 						  learning_rate = 1e-3, batch_size = 64)
 	
 	# Save the training mean, standard deviation and classifier for evaluation and prediction
