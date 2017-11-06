@@ -10,7 +10,7 @@ Image text recognition with Convolutional Neural Networks using TensorFlow
 Create an English word image generator and implement a Convolutional Neural Networks model using Python and TensorFlow to recognize the text from the generated images.
 
 ## Images
-You may use you own images or use the below generate.image.py to generate the images. However, at this moment, only images of size (128x64) with words between length of four to ten are supported. This is also the specification of the images generated from generate.image.py. Enhancement will be made in the future. 
+You may use you own images or use the generate_image.py to generate the images. However, at this moment, only images of size (128x64) with words between length of four to ten are supported. This is also the specification of the images generated from generate_image.py. Enhancement will be made in the future. 
 
 A typical training image looks like:
 
