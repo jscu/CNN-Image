@@ -2,14 +2,6 @@
 cnn_model.py
 This file creates the prototype of a Convolutional Neural Network
 model and contains some of the common functions used by the model.
-Part of the creation of this model template is based on other
-sources and they are listed below.
-
-Reference list:
-https://www.tensorflow.org/tutorials/layers
-https://nicholastsmith.wordpress.com/2017/10/14/deep-learning-ocr-using-tensorflow-and-python/
-https://matthewearl.github.io/2016/05/06/cnn-anpr/
-https://github.com/potterhsu/SVHNClassifier
 '''
 
 import tensorflow as tf
